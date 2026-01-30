@@ -635,6 +635,7 @@
             this.Controls.Add(this.TextBoxMember2);
             this.Controls.Add(this.TextBoxMember1);
             this.Controls.Add(this.MenuStrip);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.MenuStrip;
             this.Name = "MainForm";
             this.Text = "하코런 3원정대 범인찾기";

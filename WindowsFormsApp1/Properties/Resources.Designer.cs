@@ -70,7 +70,7 @@ namespace WindowsFormsApp1.Properties {
         }
         
         /// <summary>
-        ///   1과(와) 유사한 지역화된 문자열을 찾습니다.
+        ///   2과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string VersionB {
             get {
@@ -79,7 +79,7 @@ namespace WindowsFormsApp1.Properties {
         }
         
         /// <summary>
-        ///   1과(와) 유사한 지역화된 문자열을 찾습니다.
+        ///   0과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string VersionC {
             get {

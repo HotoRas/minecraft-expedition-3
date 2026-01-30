@@ -122,11 +122,11 @@
     <comment>First digit of VersionString</comment>
   </data>
   <data name="VersionB" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
     <comment>Second digit of VersionString</comment>
   </data>
   <data name="VersionC" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
     <comment>Last digit of VersionString</comment>
   </data>
   <data name="VersionSuffix" xml:space="preserve">
