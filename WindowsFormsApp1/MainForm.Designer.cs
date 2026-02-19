@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.TextBoxMember1 = new System.Windows.Forms.TextBox();
             this.TextBoxMember2 = new System.Windows.Forms.TextBox();
             this.TextBoxMember3 = new System.Windows.Forms.TextBox();
@@ -636,6 +637,7 @@
             this.Controls.Add(this.TextBoxMember1);
             this.Controls.Add(this.MenuStrip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.MenuStrip;
             this.Name = "MainForm";
             this.Text = "하코런 3원정대 범인찾기";

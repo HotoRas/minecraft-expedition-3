@@ -48,8 +48,10 @@
             this.ClientSize = new System.Drawing.Size(538, 262);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CopyingForm";
             this.Text = "저작권 정보";
+            this.Load += new System.EventHandler(this.CopyingForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
